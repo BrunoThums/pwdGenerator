@@ -26,7 +26,7 @@ def main():
     capitalizar_primeira_letra = False
     
     if len(sys.argv) < 2:
-        print(f"Usage: python {sys.argv[0]} logins.txt")
+        print("Usage: python pwdGenerator logins.txt")
         print(colored("       [-s ou -sufixo] sufixo ", "green", attrs=['bold']),end="")
         print("-> adiciona ao final do login a palavra desejada")
         print(colored("       [-p ou -prefixo] prefixo ", "green", attrs=['bold']),end="")
